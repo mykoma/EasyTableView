@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181697321EF7A54000C008D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181697311EF7A54000C008D2 /* AppDelegate.swift */; };
+		181697371EF7A54000C008D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181697351EF7A54000C008D2 /* Main.storyboard */; };
+		181697391EF7A54000C008D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181697381EF7A54000C008D2 /* Assets.xcassets */; };
+		1816973C1EF7A54000C008D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1816973A1EF7A54000C008D2 /* LaunchScreen.storyboard */; };
+		1816974B1EF7A59800C008D2 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816974A1EF7A59800C008D2 /* UITableView+Extension.swift */; };
+		181697531EF7A5EE00C008D2 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816974F1EF7A5EE00C008D2 /* FBKVOController.m */; };
+		181697541EF7A5EE00C008D2 /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181697521EF7A5EE00C008D2 /* NSObject+FBKVOController.m */; };
+		181697671EF7A7CC00C008D2 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181697621EF7A7CC00C008D2 /* TestViewController.swift */; };
+		181697681EF7A7CC00C008D2 /* Cell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181697641EF7A7CC00C008D2 /* Cell1.swift */; };
+		181697691EF7A7CC00C008D2 /* Cell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181697651EF7A7CC00C008D2 /* Cell2.swift */; };
+		1816976A1EF7A7CC00C008D2 /* Cell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181697661EF7A7CC00C008D2 /* Cell3.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1816972E1EF7A54000C008D2 /* EasyTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181697311EF7A54000C008D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		181697361EF7A54000C008D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181697381EF7A54000C008D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1816973B1EF7A54000C008D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1816973D1EF7A54000C008D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1816974A1EF7A59800C008D2 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		1816974C1EF7A5BE00C008D2 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		1816974E1EF7A5EE00C008D2 /* FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKVOController.h; sourceTree = "<group>"; };
+		1816974F1EF7A5EE00C008D2 /* FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKVOController.m; sourceTree = "<group>"; };
+		181697501EF7A5EE00C008D2 /* KVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOController.h; sourceTree = "<group>"; };
+		181697511EF7A5EE00C008D2 /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FBKVOController.h"; sourceTree = "<group>"; };
+		181697521EF7A5EE00C008D2 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FBKVOController.m"; sourceTree = "<group>"; };
+		181697621EF7A7CC00C008D2 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		181697641EF7A7CC00C008D2 /* Cell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell1.swift; sourceTree = "<group>"; };
+		181697651EF7A7CC00C008D2 /* Cell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell2.swift; sourceTree = "<group>"; };
+		181697661EF7A7CC00C008D2 /* Cell3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell3.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1816972B1EF7A53F00C008D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181697251EF7A53F00C008D2 = {
+			isa = PBXGroup;
+			children = (
+				181697491EF7A59800C008D2 /* EasyTableView */,
+				181697301EF7A54000C008D2 /* EasyTableViewDemo */,
+				1816972F1EF7A54000C008D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1816972F1EF7A54000C008D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1816972E1EF7A54000C008D2 /* EasyTableViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181697301EF7A54000C008D2 /* EasyTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				181697601EF7A7CC00C008D2 /* Src */,
+				1816974D1EF7A5EE00C008D2 /* FBKVOController */,
+				1816974C1EF7A5BE00C008D2 /* Bridging-Header.h */,
+				181697311EF7A54000C008D2 /* AppDelegate.swift */,
+				181697351EF7A54000C008D2 /* Main.storyboard */,
+				181697381EF7A54000C008D2 /* Assets.xcassets */,
+				1816973A1EF7A54000C008D2 /* LaunchScreen.storyboard */,
+				1816973D1EF7A54000C008D2 /* Info.plist */,
+			);
+			path = EasyTableViewDemo;
+			sourceTree = "<group>";
+		};
+		181697491EF7A59800C008D2 /* EasyTableView */ = {
+			isa = PBXGroup;
+			children = (
+				1816974A1EF7A59800C008D2 /* UITableView+Extension.swift */,
+			);
+			name = EasyTableView;
+			path = ../EasyTableView;
+			sourceTree = "<group>";
+		};
+		1816974D1EF7A5EE00C008D2 /* FBKVOController */ = {
+			isa = PBXGroup;
+			children = (
+				1816974E1EF7A5EE00C008D2 /* FBKVOController.h */,
+				1816974F1EF7A5EE00C008D2 /* FBKVOController.m */,
+				181697501EF7A5EE00C008D2 /* KVOController.h */,
+				181697511EF7A5EE00C008D2 /* NSObject+FBKVOController.h */,
+				181697521EF7A5EE00C008D2 /* NSObject+FBKVOController.m */,
+			);
+			path = FBKVOController;
+			sourceTree = "<group>";
+		};
+		181697601EF7A7CC00C008D2 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				181697611EF7A7CC00C008D2 /* ViewControllers */,
+				181697631EF7A7CC00C008D2 /* Views */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		181697611EF7A7CC00C008D2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				181697621EF7A7CC00C008D2 /* TestViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		181697631EF7A7CC00C008D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				181697641EF7A7CC00C008D2 /* Cell1.swift */,
+				181697651EF7A7CC00C008D2 /* Cell2.swift */,
+				181697661EF7A7CC00C008D2 /* Cell3.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1816972D1EF7A53F00C008D2 /* EasyTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181697401EF7A54000C008D2 /* Build configuration list for PBXNativeTarget "EasyTableViewDemo" */;
+			buildPhases = (
+				1816972A1EF7A53F00C008D2 /* Sources */,
+				1816972B1EF7A53F00C008D2 /* Frameworks */,
+				1816972C1EF7A53F00C008D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyTableViewDemo;
+			productName = EasyTableViewDemo;
+			productReference = 1816972E1EF7A54000C008D2 /* EasyTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181697261EF7A53F00C008D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Goluk;
+				TargetAttributes = {
+					1816972D1EF7A53F00C008D2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 181697291EF7A53F00C008D2 /* Build configuration list for PBXProject "EasyTableViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181697251EF7A53F00C008D2;
+			productRefGroup = 1816972F1EF7A54000C008D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1816972D1EF7A53F00C008D2 /* EasyTableViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1816972C1EF7A53F00C008D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1816973C1EF7A54000C008D2 /* LaunchScreen.storyboard in Resources */,
+				181697391EF7A54000C008D2 /* Assets.xcassets in Resources */,
+				181697371EF7A54000C008D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1816972A1EF7A53F00C008D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181697531EF7A5EE00C008D2 /* FBKVOController.m in Sources */,
+				181697541EF7A5EE00C008D2 /* NSObject+FBKVOController.m in Sources */,
+				181697681EF7A7CC00C008D2 /* Cell1.swift in Sources */,
+				181697321EF7A54000C008D2 /* AppDelegate.swift in Sources */,
+				181697691EF7A7CC00C008D2 /* Cell2.swift in Sources */,
+				1816976A1EF7A7CC00C008D2 /* Cell3.swift in Sources */,
+				181697671EF7A7CC00C008D2 /* TestViewController.swift in Sources */,
+				1816974B1EF7A59800C008D2 /* UITableView+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		181697351EF7A54000C008D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181697361EF7A54000C008D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1816973A1EF7A54000C008D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1816973B1EF7A54000C008D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1816973E1EF7A54000C008D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1816973F1EF7A54000C008D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181697411EF7A54000C008D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goluk.EasyTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		181697421EF7A54000C008D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goluk.EasyTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181697291EF7A53F00C008D2 /* Build configuration list for PBXProject "EasyTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1816973E1EF7A54000C008D2 /* Debug */,
+				1816973F1EF7A54000C008D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181697401EF7A54000C008D2 /* Build configuration list for PBXNativeTarget "EasyTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181697411EF7A54000C008D2 /* Debug */,
+				181697421EF7A54000C008D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181697261EF7A53F00C008D2 /* Project object */;
+}
