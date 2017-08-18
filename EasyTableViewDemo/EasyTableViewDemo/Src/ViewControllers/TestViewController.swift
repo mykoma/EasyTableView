@@ -30,13 +30,13 @@ class TestViewController: UIViewController {
 
     @IBAction func appendOne() {
         let item = Cell1Item.init(identifier: "cell1", with: 22)
-        self.tableView.append(cellItem: item)
+        self.tableView.append(cellModel: item)
     }
     
     @IBAction func appendTwo() {
         let item = Cell1Item.init(identifier: "cell1", with: 22)
         let item2 = Cell2Item.init(identifier: "cell2", with: 42)
-        self.tableView.append(cellItems: [item, item2])
+        self.tableView.append(cellModels: [item, item2])
     }
     
     @IBAction func removeOne1() {
@@ -46,7 +46,7 @@ class TestViewController: UIViewController {
     
     @IBAction func removeOne2() {
         // 测试代码， 注意数据崩溃！！！！！
-        self.tableView.remove(cellItem: self.tableView.dataSourceArray.last!)
+        self.tableView.remove(cellModel: self.tableView.dataSourceArray.last!)
     }
     
     @IBAction func removeTwo1() {
@@ -57,26 +57,26 @@ class TestViewController: UIViewController {
     
     @IBAction func removeTwo2() {
         // 测试代码， 注意数据崩溃！！！！！
-        self.tableView.remove(cellItems: [self.tableView.dataSourceArray[self.tableView.dataSourceArray.count - 2],
+        self.tableView.remove(cellModels: [self.tableView.dataSourceArray[self.tableView.dataSourceArray.count - 2],
                                           self.tableView.dataSourceArray.last!])
     }
     
     @IBAction func insertOne() {
         let item = Cell1Item.init(identifier: "cell1", with: 22)
-        self.tableView.insert(cellItem: item, atIndexPath: IndexPath.init(row: 0, section: 0))
+        self.tableView.insert(cellModel: item, atIndexPath: IndexPath.init(row: 0, section: 0))
     }
     
     @IBAction func insertTwo() {
         let item = Cell1Item.init(identifier: "cell1", with: 22)
         let item2 = Cell2Item.init(identifier: "cell2", with: 42)
-        self.tableView.insert(cellItems: [item, item2], atIndexPath: IndexPath.init(row: 0, section: 0))
+        self.tableView.insert(cellModels: [item, item2], atIndexPath: IndexPath.init(row: 0, section: 0))
     }
     
     @IBAction func replaceOne() {
         let item3 = Cell2Item.init(identifier: "cell3", with: UITableViewAutomaticDimension)
         item3.text = "替换长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长文本"
         // 测试代码， 注意数据崩溃！！！！！
-        self.tableView.replace(cellItem: item3, atIndexPath: IndexPath.init(row: 0, section: 0))
+        self.tableView.replace(cellModel: item3, atIndexPath: IndexPath.init(row: 0, section: 0))
     }
     
     @IBAction func replaceTwo() {

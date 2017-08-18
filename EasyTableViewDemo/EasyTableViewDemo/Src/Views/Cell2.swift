@@ -8,13 +8,13 @@
 
 import UIKit
 
-class Cell2Item: UITableViewCellItem {
+class Cell2Item: UITableViewCellModel {
     
-    dynamic var text: String?
+    @objc dynamic var text: String?
     
 }
 
-class Cell2: UITableViewCell {
+class Cell2: UITableViewCell, UITableViewCellKVO {
     
     @IBOutlet weak var label: UILabel?
 
@@ -23,8 +23,8 @@ class Cell2: UITableViewCell {
 
     }
     
-    override func kvo(cellItem: UITableViewCellItem) {
-        guard let item = cellItem as? Cell2Item else {
+    func kvo(cellModel: UITableViewCellModel) {
+        guard let item = cellModel as? Cell2Item else {
             return
         }
         

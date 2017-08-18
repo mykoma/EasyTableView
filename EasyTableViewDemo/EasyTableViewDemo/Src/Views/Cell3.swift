@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Cell3Item: UITableViewCellItem {
+class Cell3Item: UITableViewCellModel {
     
 }
 

@@ -8,18 +8,18 @@
 
 import UIKit
 
-class Cell1Item: UITableViewCellItem {
+class Cell1Item: UITableViewCellModel {
     
 }
 
-class Cell1: UITableViewCell {
+class Cell1: UITableViewCell, UITableViewCellKVO {
 
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-    override func kvo(cellItem: UITableViewCellItem) {
+    func kvo(cellModel: UITableViewCellModel) {
         
     }
     
